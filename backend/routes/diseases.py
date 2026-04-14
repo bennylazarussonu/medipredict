@@ -70,6 +70,6 @@ async def add_disease(data: dict):
         })
 
     # Retrain model
-    await train_model()
+    # await train_model()
 
     return {"message": "Disease added, training data added, model retrained"}

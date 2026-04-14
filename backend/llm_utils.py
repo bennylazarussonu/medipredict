@@ -76,6 +76,7 @@ async def get_specialist_recommendation(diseases):
 async def get_medical_advice(disease):
     prompt = f"""
     Provide the following for {disease}:
+    A short description about the disease and it's symptoms.
     1. Recommended tests
     2. Treatment
     3. Prevention

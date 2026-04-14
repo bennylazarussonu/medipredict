@@ -41,8 +41,8 @@ async def confirm_diagnosis(data: dict):
     print("Inserted into training data")
 
     # Retrain model
-    await train_model()
+    # await train_model()
 
-    print("Model retrained")
+    # print("Model retrained")
 
     return {"status": "Diagnosis confirmed"}
